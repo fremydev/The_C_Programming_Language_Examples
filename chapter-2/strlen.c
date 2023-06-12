@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int lens(char s[]);
+int lens(const char s[]);
 
 int main(void) {
 	printf("%d\n", lens("teste123"));
@@ -9,7 +9,7 @@ int main(void) {
 }
 
 /* strlen: return the length of s */
-int lens(char s[]) {
+int lens(const char s[]) {
 	int i;
 
 	i = 0;
