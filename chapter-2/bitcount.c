@@ -13,4 +13,5 @@ int bitcount(unsigned x) {
         if (x & 01)
             b++;
     return b;
+
 }
